@@ -14,7 +14,7 @@ export default class Install extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
 
   public static examples = [
-    `$ sfdx kpn:dependencies:login --username myOrg@example.com --password pass123 --loginurl https://test.salesforce.com
+    `$ sfdx kpn:dependencies:install --username myOrg@example.com --password pass123 --loginurl https://test.salesforce.com
   `];
 
   protected static flagsConfig = {
