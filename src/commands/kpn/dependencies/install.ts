@@ -14,8 +14,8 @@ export default class Install extends SfdxCommand {
   public static description = messages.getMessage('commandDescription');
 
   public static examples = [
-    `$ sfdx kpn:dependencies:install --username myOrg@example.com --password pass123 --loginurl https://test.salesforce.com
-  `];
+    '$ sfdx kpn:dependencies:install --username myOrg@example.com --password pass123 --loginurl https://test.salesforce.com'
+  ];
 
   protected static flagsConfig = {
     username: flags.string({char: 'u', description: 'username'}),
@@ -37,7 +37,7 @@ export default class Install extends SfdxCommand {
 
     await conn.loginBySoap(this.flags.username, this.flags.password);
     await spawn('sfdx', ['force:config:set', `instanceUrl=${conn.instanceUrl}`], { stdio: 'inherit' });
-    await spawn('sfdx', ['texei:package:dependencies:install', `--targetusername=${conn.accessToken}`], { stdio: 'inherit' });
+    await spawn('sfdx', ['texei:package:dependencies:install', `--targetusername='${conn.accessToken}'`], { stdio: 'inherit' });
 
     return {
       instanceUrl: conn.instanceUrl,
