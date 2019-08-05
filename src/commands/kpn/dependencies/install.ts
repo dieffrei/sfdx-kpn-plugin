@@ -7,7 +7,7 @@ const spawn = require('child-process-promise').spawn;
 
 Messages.importMessagesDirectory(__dirname);
 
-const messages = Messages.loadMessages('sfdx-soap-login', 'login');
+const messages = Messages.loadMessages('sfdx-kpn-plugin', 'install');
 
 export default class Install extends SfdxCommand {
 
