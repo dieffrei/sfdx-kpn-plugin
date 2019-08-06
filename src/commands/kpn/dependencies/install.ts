@@ -4,6 +4,7 @@ import {AnyJson} from '@salesforce/ts-types';
 import {Connection} from 'jsforce';
 // tslint:disable-next-line:no-var-requires
 const spawn = require('child-process-promise').spawn;
+const exec = require('child-process-promise').exec;
 
 Messages.importMessagesDirectory(__dirname);
 
@@ -36,7 +37,7 @@ export default class Install extends SfdxCommand {
     });
 
     await conn.loginBySoap(this.flags.username, this.flags.password);
-    await spawn('sfdx', ['force:config:set', `instanceUrl=${conn.instanceUrl}`], { stdio: 'inherit' });
+    await exec('sfdx', ['force:config:set', `instanceUrl=${conn.instanceUrl}`], { stdio: 'inherit' });
     await spawn('sfdx', ['texei:package:dependencies:install', `--targetusername='${conn.accessToken}'`], { stdio: 'inherit' });
 
     return {
