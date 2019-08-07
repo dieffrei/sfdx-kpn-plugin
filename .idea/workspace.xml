@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4d5cdb-8d20-4091-9337-2305d337bf5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts" afterDir="false" />
-    </list>
+    <list default="true" id="ab4d5cdb-8d20-4091-9337-2305d337bf5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="169">
+              <caret line="41" column="78" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -158,12 +155,12 @@
       <workItem from="1565205561819" duration="21000" />
       <workItem from="1565206947106" duration="33000" />
       <workItem from="1565207117243" duration="47000" />
-      <workItem from="1565207185862" duration="133000" />
+      <workItem from="1565207185862" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2068000" />
+    <option name="totallyTimeSpent" value="2170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
@@ -240,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="169">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="78" />
         </state>
       </provider>
     </entry>
