@@ -38,6 +38,9 @@ export default class Install extends SfdxCommand {
 
     await conn.loginBySoap(this.flags.username, this.flags.password);
 
+    await exec('sfdx', ['force:config:set', `instanceUrl=${conn.instanceUrl}`], { stdio: 'inherit' });
+    await spawn('sfdx', ['sfdx force:package:install', '-p "04t2X000000cRIPQA2"', '-w 10', `--targetusername='${conn.accessToken}'`]);
+
     return {
       instanceUrl: conn.instanceUrl,
       accessToken: conn.accessToken
