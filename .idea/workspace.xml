@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="246">
+              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -157,16 +157,15 @@
       <workItem from="1565207117243" duration="47000" />
       <workItem from="1565207185862" duration="235000" />
       <workItem from="1565207638020" duration="416000" />
-      <workItem from="1565208150525" duration="501000" />
+      <workItem from="1565208150525" duration="765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3087000" />
+    <option name="totallyTimeSpent" value="3351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15450644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -239,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="246">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
         </state>
       </provider>
     </entry>

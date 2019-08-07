@@ -40,7 +40,7 @@ export default class Install extends SfdxCommand {
 
     await exec('sfdx', ['force:config:set', `instanceUrl=${conn.instanceUrl}`]);
     await exec('sfdx', ['force:config:get instanceUrl']);
-    await spawn('sfdx', ['force:package:install', '-p 04t2X000000cRIPQA2', '-w 10', `--targetusername='${conn.accessToken}'`]);
+    await spawn('sfdx', ['force:package:install', '-p 04t2X000000cRIPQA2', '-w 10', `--targetusername='${conn.accessToken}'`], { stdio: 'inherit' });
 
     return {
       instanceUrl: conn.instanceUrl,
