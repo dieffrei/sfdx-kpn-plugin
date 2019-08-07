@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4d5cdb-8d20-4091-9337-2305d337bf5a" name="Default Changelist" comment="" />
+    <list default="true" id="ab4d5cdb-8d20-4091-9337-2305d337bf5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+            <state relative-caret-position="235">
+              <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -157,15 +159,16 @@
       <workItem from="1565207117243" duration="47000" />
       <workItem from="1565207185862" duration="235000" />
       <workItem from="1565207638020" duration="416000" />
-      <workItem from="1565208150525" duration="765000" />
+      <workItem from="1565208150525" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3351000" />
+    <option name="totallyTimeSpent" value="3820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15450644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -181,9 +184,9 @@
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="SOQL Query" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.3983629" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007153" side_tool="true" weight="0.45839018" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.26739427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.6967096" visible="true" weight="0.3983629" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.30329043" side_tool="true" visible="true" weight="0.3983629" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.26739427" />
       <window_info anchor="bottom" id="Anonymous Apex" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/commands/kpn/dependencies/install.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        <state relative-caret-position="235">
+          <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
         </state>
       </provider>
     </entry>
