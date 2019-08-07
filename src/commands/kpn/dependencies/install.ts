@@ -37,7 +37,7 @@ export default class Install extends SfdxCommand {
     });
 
     await conn.loginBySoap(this.flags.username, this.flags.password);
-    await exec('sfdx', ['force:config:set', `instanceUrl=${conn.instanceUrl}`], { stdio: 'inherit' });
+    await exec(`sfdx force:config:set instanceUrl=${conn.instanceUrl}`);
     await spawn('sfdx', ['texei:package:dependencies:install', `--targetusername='${conn.accessToken}'`], { stdio: 'inherit' });
 
     return {
